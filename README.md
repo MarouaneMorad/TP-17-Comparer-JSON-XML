@@ -3,12 +3,15 @@
 **Réalisé par : Abdelwahid Amdjar**
 
 ## Description du Projet
+
 Ce projet a pour objectif de comparer les performances (temps d'encodage/décodage) et la taille des fichiers générés par trois formats de sérialisation de données :
+
 1. **JSON**
 2. **XML**
 3. **Protocol Buffers (Protobuf)**
 
 ## Structure du Projet
+
 - `index.js` : Script principal effectuant la sérialisation et la comparaison.
 - `employee.proto` : Définition du schéma pour Protobuf.
 - `data.json`, `data.xml`, `data.proto` : Fichiers de sortie générés.
@@ -16,6 +19,7 @@ Ce projet a pour objectif de comparer les performances (temps d'encodage/décoda
 ## Installation et Exécution
 
 1. **Installer les dépendances** :
+
    ```bash
    npm install
    ```
@@ -24,8 +28,3 @@ Ce projet a pour objectif de comparer les performances (temps d'encodage/décoda
    ```bash
    node index.js
    ```
-
-## Résultats Attendus
-Le script affichera dans la console :
-- Le temps d'exécution pour l'encodage et le décodage de chaque format.
-- La taille finale des fichiers générés pour comparer l'efficacité de stockage.
